@@ -1,3 +1,4 @@
 export default {
-  test: 3
+  count1: 1,
+  user: 'Yuki'
 }
