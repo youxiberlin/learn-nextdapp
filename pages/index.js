@@ -15,11 +15,6 @@ export default bind(
   },
   [
     "count",
-    {
-      add:[
-        ({ val, props, set}) => set((props.count | 0) + val, "count"),
-        ["count"]
-      ]
-    }
+    "add"
   ]
 )

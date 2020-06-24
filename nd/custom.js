@@ -1,4 +1,3 @@
-export const logConf = async ({ val, set, conf, props, global }) => {
-  console.log('props', props)
-}
-logConf.props = ["count"]
+export const add = ({ val, props, set }) =>
+  set((props.count || 0) + val, "count")
+add.props = ["count"]
